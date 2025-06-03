@@ -62,7 +62,7 @@ npm install
 Create a `.env` file in the root directory with the following content:
 ```
 MONGODB_URI=mongodb://localhost:27017/bitespeed
-PORT=3000
+PORT=8000
 ```
 
 ## Running the Application
