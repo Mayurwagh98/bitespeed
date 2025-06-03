@@ -1,7 +1,6 @@
 const contactService = require("../services/contactService.js");
 
 const identifyContact = async (req, res, next) => {
-  console.log('req:', req)
   try {
     const { email, phoneNumber } = req.body;
 
